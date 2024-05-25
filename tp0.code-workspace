@@ -3,6 +3,28 @@
 		"debug.onTaskErrors": "abort",
 		"files.associations": {
 			"*.h": "c",
+			"array": "c",
+			"*.tcc": "c",
+			"deque": "c",
+			"forward_list": "c",
+			"list": "c",
+			"string": "c",
+			"unordered_map": "c",
+			"unordered_set": "c",
+			"vector": "c",
+			"iterator": "c",
+			"string_view": "c",
+			"algorithm": "c",
+			"hash_map": "c",
+			"hash_set": "c",
+			"memory": "c",
+			"rope": "c",
+			"slist": "c",
+			"initializer_list": "c",
+			"numeric": "c",
+			"ranges": "c",
+			"span": "c",
+			"valarray": "c"
 		},
 		"C_Cpp.errorSquiggles": "disabled",
 	},
@@ -13,5 +35,12 @@
 		{
 			"path": "server"
 		}
-	]
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			
+
+		]
+	}
 }

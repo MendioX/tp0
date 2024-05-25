@@ -13,11 +13,13 @@ int main(void) {
 		switch (cod_op) {
 		case MENSAJE:
 			recibir_mensaje(cliente_fd);
+			enviar_mensaje("rta al msj kpo",cliente_fd);
 			break;
 		case PAQUETE:
 			lista = recibir_paquete(cliente_fd);
 			log_info(logger, "Me llegaron los siguientes valores:\n");
 			list_iterate(lista, (void*) iterator);
+			enviar_mensaje("Recibi el mensaje K-po",cliente_fd);
 			break;
 		case -1:
 			log_error(logger, "el cliente se desconecto. Terminando servidor");

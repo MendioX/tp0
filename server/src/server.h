@@ -6,7 +6,9 @@
 #include <string.h>
 #include <commons/log.h>
 #include "utils.h"
+//#include "../../client/src/utils.h"
 
 void iterator(char* value);
+void enviar_mensaje(char* mensaje, int socket_cliente);
 
 #endif /* SERVER_H_ */
